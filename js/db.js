@@ -12,7 +12,7 @@ function importDb(event) {
 
     try {
         const parsedDb = JSON.parse(dbContent);
-        localStorage.setItem('db', JSON.stringify(parsedDb));
+        sessionStorage .setItem('db', JSON.stringify(parsedDb));
         alert('DB imported successfully!');
         document.getElementById('dbContent').value = '';
         displayDb();
@@ -23,7 +23,7 @@ function importDb(event) {
 
 function displayDb() {
     const dbContainer = document.getElementById('dbContainer');
-    const db = JSON.parse(localStorage.getItem('db')) || {};
+    const db = JSON.parse(sessionStorage .getItem('db')) || {};
 
     dbContainer.innerHTML = `<pre>${JSON.stringify(db, null, 2)}</pre>`;
 }
@@ -32,7 +32,7 @@ function displayDb() {
 document.addEventListener('DOMContentLoaded', displayDb);
 
 function exportDb() {
-    const db = localStorage.getItem('db');
+    const db = sessionStorage .getItem('db');
     if (!db) {
         alert('No DB content available to export.');
         return;

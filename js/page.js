@@ -449,8 +449,8 @@ function populateTemplate(template, data) {
 
 
 
-// Fetch the updated database from localStorage
-let db = JSON.parse(localStorage.getItem('db'));
+// Fetch the updated database from sessionStorage 
+let db = JSON.parse(sessionStorage .getItem('db'));
 const selectedRosterKey = db.selectedRoster;
 
 if (db && db.rosters && db.rosters[selectedRosterKey] && db.rosters[selectedRosterKey].roster) {
@@ -500,7 +500,7 @@ document.addEventListener('DOMContentLoaded', displayNotesOnPage);
 
 function displayNotesOnPage() {
     const notesContainer = document.getElementById('notesContainer');
-    let notes = JSON.parse(localStorage.getItem('additional_notes')) || [];
+    let notes = JSON.parse(sessionStorage .getItem('additional_notes')) || [];
 
     if (notes.length === 0) {
         notesContainer.innerHTML = '<p>No additional notes available.</p>';

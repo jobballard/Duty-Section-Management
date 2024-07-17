@@ -40,7 +40,7 @@ function addDutySection(dsn, dsl, dsl_number, ds_notes) {
     db.duty_sections.push(newDutySection);
 
     // Save to local storage
-    localStorage.setItem('db', JSON.stringify(db));
+    sessionStorage .setItem('db', JSON.stringify(db));
 
     // Optionally, update UI or trigger re-rendering
     renderDutySections();
@@ -88,6 +88,6 @@ function editDutySection(index) {
 
 function deleteDutySection(index) {
     db.duty_sections.splice(index, 1);
-    localStorage.setItem('db', JSON.stringify(db));
+    sessionStorage .setItem('db', JSON.stringify(db));
     renderDutySections();
 }

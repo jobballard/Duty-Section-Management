@@ -9,7 +9,7 @@ document.getElementById('deleteNoteButton').addEventListener('click', deleteNote
 
 function loadNotesForEditing() {
   const noteSelector = document.getElementById('noteSelector');
-  let notes = JSON.parse(localStorage.getItem('additional_notes')) || [];
+  let notes = JSON.parse(sessionStorage .getItem('additional_notes')) || [];
 
   noteSelector.innerHTML = '<option value="">--Select a note--</option>';
   notes.forEach((note, index) => {
@@ -23,7 +23,7 @@ function loadNotesForEditing() {
 function loadNoteContent() {
   const noteSelector = document.getElementById('noteSelector');
   const noteContent = document.getElementById('noteContent');
-  let notes = JSON.parse(localStorage.getItem('additional_notes')) || [];
+  let notes = JSON.parse(sessionStorage .getItem('additional_notes')) || [];
 
   const selectedIndex = noteSelector.value;
   if (selectedIndex) {
@@ -44,7 +44,7 @@ function saveNote(event) {
       return;
   }
 
-  let notes = JSON.parse(localStorage.getItem('additional_notes')) || [];
+  let notes = JSON.parse(sessionStorage .getItem('additional_notes')) || [];
 
   if (noteSelector.value) {
       notes[noteSelector.value] = noteContent;
@@ -54,7 +54,7 @@ function saveNote(event) {
       alert('Note added successfully!');
   }
 
-  localStorage.setItem('additional_notes', JSON.stringify(notes));
+  sessionStorage .setItem('additional_notes', JSON.stringify(notes));
 
   noteContent.value = '';
   noteSelector.value = ''; // Clear the selector
@@ -71,9 +71,9 @@ function deleteNote() {
       return;
   }
 
-  let notes = JSON.parse(localStorage.getItem('additional_notes')) || [];
+  let notes = JSON.parse(sessionStorage .getItem('additional_notes')) || [];
   notes.splice(selectedIndex, 1);
-  localStorage.setItem('additional_notes', JSON.stringify(notes));
+  sessionStorage .setItem('additional_notes', JSON.stringify(notes));
 
   alert('Note deleted successfully!');
 
@@ -85,7 +85,7 @@ function deleteNote() {
 
 function displayNotes() {
   const notesContainer = document.getElementById('notesContainer');
-  let notes = JSON.parse(localStorage.getItem('additional_notes')) || [];
+  let notes = JSON.parse(sessionStorage .getItem('additional_notes')) || [];
 
   if (notes.length === 0) {
       notesContainer.innerHTML = '<p>No notes available.</p>';

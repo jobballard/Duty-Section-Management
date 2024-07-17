@@ -1,5 +1,5 @@
 // DB SET UP
-let db = JSON.parse(localStorage.getItem("db"));
+let db = JSON.parse(sessionStorage .getItem("db"));
 if (db == null) {
   db = { duty_sections: [], students: [], roster: {} };
 }
@@ -17,7 +17,7 @@ function showPage(pageId) {
 
     // Update the db with the current page
     db.show_page = pageId;
-    localStorage.setItem("db", JSON.stringify(db));
+    sessionStorage .setItem("db", JSON.stringify(db));
 }
 
 // ON PAGE LOAD

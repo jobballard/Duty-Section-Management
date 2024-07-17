@@ -117,7 +117,7 @@ function ensureStudentStatus() {
             student.status = 5;
         }
     });
-    localStorage.setItem('db', JSON.stringify(db));
+    sessionStorage .setItem('db', JSON.stringify(db));
 }
 
 function saveRosterToDatabase(weekNumber, roster) {
@@ -127,11 +127,11 @@ function saveRosterToDatabase(weekNumber, roster) {
 
     db.rosters[weekNumber] = { ...db.rosters[weekNumber], roster: roster };
 
-    localStorage.setItem('db', JSON.stringify(db));
+    sessionStorage .setItem('db', JSON.stringify(db));
 }
 
 function saveRoleAssignments() {
-    localStorage.setItem('db', JSON.stringify(db));
+    sessionStorage .setItem('db', JSON.stringify(db));
 }
 
 function getStudentsGroupedByDutySection() {

@@ -44,7 +44,7 @@ function addStudent(name, gradDate, dutySection, canDrive, isLLD) {
     db.students.push(newStudent);
 
     // Save to local storage
-    localStorage.setItem('db', JSON.stringify(db));
+    sessionStorage .setItem('db', JSON.stringify(db));
 
     // Optionally, update UI or trigger re-rendering
     renderStudents();
@@ -113,7 +113,7 @@ function editStudent(index) {
         db.students[index].status = db.students[index].isLLD ? 6 : 5;
 
         // Save updated db to local storage
-        localStorage.setItem('db', JSON.stringify(db));
+        sessionStorage .setItem('db', JSON.stringify(db));
 
         // Reset form and re-render students
         document.getElementById('addStudentForm').reset();
@@ -128,7 +128,7 @@ function editStudent(index) {
 // Function to delete student
 function deleteStudent(index) {
     db.students.splice(index, 1);
-    localStorage.setItem('db', JSON.stringify(db));
+    sessionStorage .setItem('db', JSON.stringify(db));
     renderStudents();
 }
 

@@ -7,7 +7,7 @@ document.getElementById('resetRoleAssignments').addEventListener('click', resetR
 function resetRoleAssignments() {
     if (db && db.rosters) {
         delete db.rosters;
-        localStorage.setItem('db', JSON.stringify(db));
+        sessionStorage .setItem('db', JSON.stringify(db));
         alert('Role assignments have been reset.');
         location.reload();
     } else {
