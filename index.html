@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Duty Section Roster</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="main_wrapper">
+    <div class="columns">
+      <div class="column is-12 header_menu">
+        <button class="button is-normal mb_20" onclick="showPage('page_duty_sections')">Duty Sections</button>
+        <button class="button is-normal mb_20" onclick="showPage('page_students')">Students</button>
+        <button class="button is-normal mb_20" onclick="showPage('page_create_duty_roster')">Create Duty Roster</button>
+        <button class="button is-normal mb_20" onclick="showPage('page_duty_roster_archive')">Notes</button>
+        <button class="button is-normal mb_20" onclick="showPage('page_import_export')">Import / Export</button>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-12 right_content" id="mwili">
+        <!-- We'll create and manage a dashboard here -->
+        <div id="page_home">
+          <h1 class="cm_title">Duty Roster Automation</h1>
+          <p class="subtitle">Content to follow!</p>
+        </div>
+
+
+        <!-- We'll manage duty sections here -->
+        <div id="page_duty_sections" style="display: none;">
+          <h1 class="cm_title">Manage Duty Sections</h1>
+          <hr>
+          <div class="columns">
+            <div class="column is-6">
+              <h3 class="subtitle is-4">Add a duty section:</h3>
+              <form id="addDutySectionForm">
+                <div class="field mb_20">
+                  <label class="label">Duty Section Number</label>
+                  <div class="control">
+                    <input class="input" type="number" placeholder="1" id="dsn" value="1" required>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label class="label">Duty Section Leader</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="Name of duty section leader" id="dsl" value="John Doe"
+                      required>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label class="label">Duty Section Leader's Phone Number</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="Duty section leader's phone number" id="dsl_number"
+                      value="727-262-1658" required>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label class="label">Duty Section Notes</label>
+                  <div class="control">
+                    <textarea class="textarea" placeholder="Textarea"
+                      id="ds_notes">Cleaning details will be all hands on duty. All uniforms must be inspection ready at all times.</textarea>
+                  </div>
+                </div>
+
+                <div class="control">
+                  <button class="button is-link" id="submitAddDutySectionForm">Submit</button>
+                </div>
+              </form>
+            </div>
+            <div class="column is-6">
+              <h3 class="subtitle is-4">Manage duty sections:</h3>
+              <div id="dutySectionsContainer"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- We'll manage students here -->
+        <div id="page_students" style="display: none;">
+  <h1 class="cm_title">Manage Students</h1>
+  <hr>
+  <div class="columns">
+    <div class="column is-6">
+      <h3 class="subtitle is-4">Add a student:</h3>
+      <!-- New Student Form -->
+      <form id="addStudentForm">
+        <div class="field mb_20">
+          <label class="label">Student Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Name" id="student_name" required>
+          </div>
+        </div>
+
+        <div class="field mb_20">
+          <label class="label">Grad Date</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="10JUN2024" id="grad_date" required>
+          </div>
+        </div>
+
+        <div class="field mb_20">
+          <label class="label">Duty Section</label>
+          <div class="control">
+            <div class="select">
+              <!-- This will take Duty Section names from the DB and should be dynamic -->
+              <select id="student_duty_section_select"></select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field mb_20">
+          <label class="label">Is LLD?</label>
+          <div class="control">
+            <div class="select">
+              <select id="student_is_lld">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field mb_20">
+          <label class="label">Can Drive?</label>
+          <div class="control">
+            <div class="select">
+              <select id="student_can_drive_select">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="control">
+          <button class="button is-link" id="submitStudentForm">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="column is-6">
+      <h3 class="subtitle is-4">Manage students:</h3>
+      <div id="studentsContainer"></div>
+    </div>
+  </div>
+</div>
+
+
+
+        <!-- We'll create duty section rosters here -->
+        <div id="page_create_duty_roster" style="display: none;">
+          <h1 class="cm_title">Create Duty Roster</h1>
+          <hr>
+          <!-- Duty Section Dates, Holiday and Sunset form -->
+          <form id="createDutySectionForm">
+            <div class="columns">
+              <div class="column is-3">
+                <div class="field mb_20">
+                  <label class="label">&nbsp;</label>
+                  <div class="date_label">Date: (Format: 31JAN2024)</div>
+                  <div class="workday_label">Schedule for the Day?</div>
+                  <div class="sunset_label">Sunset Time</div>
+                </div>
+              </div>
+              <div class="column is-1">
+                <div class="field mb_20">
+                  <label class="label">Mon</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="31JAN2024" id="mon_date" value="22JUL2024" required>
+                  </div>
+                  <div class="control">
+                    <div class="select">
+                      <select id="mon_schedule">
+                        <option value="1">Schedule 1</option>
+                        <option value="2">Schedule 2</option>
+                        <option value="3">Schedule 3</option>
+                        <option value="4">Schedule 4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="2012" id="mon_sunset" value="2004" required>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-1">
+                <div class="field mb_20">
+                  <label class="label">Tue</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="01FEB2024" id="tue_date" value="23JUL2024" required>
+                  </div>
+                  <div class="control">
+                    <div class="select">
+                      <select id="tue_schedule">
+                        <option value="1">Schedule 1</option>
+                        <option value="2">Schedule 2</option>
+                        <option value="3">Schedule 3</option>
+                        <option value="4">Schedule 4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="2012" id="tue_sunset" value="2004" required>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-1">
+                <div class="field mb_20">
+                  <label class="label">Wed</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="02FEB2024" id="wed_date" value="24JUL2024" required>
+                  </div>
+                  <div class="control">
+                    <div class="select">
+                      <select id="wed_schedule">
+                        <option value="1">Schedule 1</option>
+                        <option value="2">Schedule 2</option>
+                        <option value="3">Schedule 3</option>
+                        <option value="4">Schedule 4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="2012" id="wed_sunset" value="2003" required>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-1">
+                <div class="field mb_20">
+                  <label class="label">Thu</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="03FEB2024" id="thu_date" value="25JUL2024" required>
+                  </div>
+                  <div class="select">
+                    <select id="thu_schedule">
+                      <option value="1">Schedule 1</option>
+                      <option value="2">Schedule 2</option>
+                      <option value="3">Schedule 3</option>
+                      <option value="4">Schedule 4</option>
+                    </select>
+                  </div>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="2012" id="thu_sunset" value="2002" required>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-1">
+                <div class="field mb_20">
+                  <label class="label">Fri</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="04FEB2024" id="fri_date" value="26JUL2024" required>
+                  </div>
+                  <div class="control">
+                    <div class="select">
+                      <select id="fri_schedule">
+                        <option value="1">Schedule 1</option>
+                        <option value="2" selected="selected">Schedule 2</option>
+                        <option value="3">Schedule 3</option>
+                        <option value="4">Schedule 4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="2012" id="fri_sunset" value="2002" required>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-1">
+                <div class="field mb_20">
+                  <label class="label">Sat</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="05FEB2024" id="sat_date" value="27JUL2024" required>
+                  </div>
+                  <div class="control">
+                    <div class="select">
+                      <select id="sat_schedule">
+                        <option value="1">Schedule 1</option>
+                        <option value="2">Schedule 2</option>
+                        <option value="3" selected="selected">Schedule 3</option>
+                        <option value="4">Schedule 4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="2012" id="sat_sunset" value="2001" required>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-1">
+                <div class="field mb_20">
+                  <label class="label">Sun</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="06FEB2024" id="sun_date" value="28JUL2024" required>
+                  </div>
+                  <div class="control">
+                    <div class="select">
+                      <select id="sun_schedule">
+                        <option value="1">Schedule 1</option>
+                        <option value="2">Schedule 2</option>
+                        <option value="3">Schedule 3</option>
+                        <option value="4" selected="selected">Schedule 4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="2012" id="sun_sunset" value="2000" required>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-1">
+                <label class="label">&nbsp;</label>
+                <div class="control">
+                  <button class="button is-link" id="submitCreateDutySectionForm">Create</button>
+                </div>
+              </div>
+            </div>
+          </form>
+
+          <!-- Here we add created roster list -->
+          <hr>
+          <div class="resetRoleAssignments"><button class="button is-link" id="resetRoleAssignments">Reset Role Assignments</button></div>
+          <h3 class="subtitle is-4">Created Rosters:</h3>
+          <div id="createdRostersContainer"></div>
+
+        </div>
+        <!-- We'll view old duty section rosters here -->
+        <div id="page_duty_roster_archive" style="display: none;">
+          <h1 class="cm_title">Additional Notes</h1>
+          <p class="subtitle">Bottom right section of printed Duty Roster.</p>
+          <div class="columns">
+            <div class="column is-6">
+              <form id="addNoteForm">
+                <label for="noteSelector">Select Note to Edit:</label><br>
+                <div class="select">
+                  <select id="noteSelector">
+                    <option value="">--Select a note--</option>
+                  </select>
+                </div>
+                <br><br>
+                <label for="noteContent">Note:</label>
+                <textarea id="noteContent" class="textarea" placeholder="Textarea"></textarea>
+                <br>
+                <button class="button is-link">Save Note</button>
+                <button type="button" id="deleteNoteButton" class="button is-danger">Delete Note</button>
+              </form>
+            </div>
+            <div class="column is-6">
+              <div id="notesContainer"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- We'll import and export the db in a .txt file format here -->
+        <div id="page_import_export" style="display: none;">
+          <h1 class="cm_title">Import and Export</h1>
+          <p class="subtitle">Here you can import data to the DB, or copy the data for your back up.</p>
+          <div class="columns">
+            <div class="column is-6">
+              <form id="importDbForm">
+                <br><br>
+                <label for="dbContent">Paste text here to import:</label>
+                <textarea id="dbContent" class="textarea" placeholder="Textarea"></textarea>
+                <br>
+                <button class="button is-link">Import DB</button>
+              </form>
+            </div>
+            <div class="column is-6">
+              <div id="dbContainerButton"></div>
+              <br>
+              <div id="dbContainer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="js/app.js"></script>
+  <script src="js/duty_section.js"></script>
+  <script src="js/students.js"></script>
+  <script src="js/roster.js"></script>
+  <script src="js/created_rosters.js"></script>
+  <script src="js/notes.js"></script>
+  <script src="js/db.js"></script>
+  <script src="js/helpers.js"></script>
+
+</body>
+
+</html>

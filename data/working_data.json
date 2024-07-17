@@ -1,0 +1,29 @@
+{
+  "duty_section": "2",
+  "assignments": {
+      "moow": [
+          "Twenty",
+          "Twenty Eight"
+      ],
+      "rover": [
+          "Thirty",
+          "Thirty Six",
+          "Ten"
+      ],
+      "duty_driver": [
+          "Seven",
+          "Eighteen"
+      ],
+      "colors": [
+          "Thirty Four",
+          "Eight"
+      ]
+  },
+  "sunset_time": "2012",
+  "schedule": 1,
+  "duty_section_name": "2",
+  "duty_section_leader_name": "Ellis Jolt",
+  "duty_section_leader_number": "737-262-1666",
+  "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. All uniforms must be inspection ready at all times."
+}
+

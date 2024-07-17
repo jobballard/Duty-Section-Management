@@ -1,0 +1,2613 @@
+{
+  "duty_sections": [
+    {
+      "dsn": "1",
+      "dsl": "Job Ballard",
+      "dsl_number": "737-262-1666",
+      "ds_notes": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+    },
+    {
+      "dsn": "2",
+      "dsl": "Ellis Jolt",
+      "dsl_number": "737-262-1666",
+      "ds_notes": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+    }
+  ],
+  "show_page": "page_import_export",
+  "students": [
+    {
+      "name": "Twenty Five",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 1,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1,
+        "moow": null,
+        "rover": null
+      }
+    },
+    {
+      "name": "Nineteen",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 1,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1
+      }
+    },
+    {
+      "name": "Thirty Eight",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 1,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1,
+        "moow": null,
+        "rover": null
+      }
+    },
+    {
+      "name": "Twenty Four",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 1,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1
+      }
+    },
+    {
+      "name": "Twenty Seven",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 1,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1
+      }
+    },
+    {
+      "name": "Fourteen",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1
+      }
+    },
+    {
+      "name": "Forty Two",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 1,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1
+      }
+    },
+    {
+      "name": "Eighteen",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1
+      }
+    },
+    {
+      "name": "Seventeen",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1
+      }
+    },
+    {
+      "name": "Seven",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1
+      }
+    },
+    {
+      "name": "Ten",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 3,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1
+      }
+    },
+    {
+      "name": "Eight",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1
+      }
+    },
+    {
+      "name": "Thirty",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 3,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1
+      }
+    },
+    {
+      "name": "Thirty Four",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 4,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 1,
+        "colors": 1
+      }
+    },
+    {
+      "name": "Four",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Thirty Nine",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Eleven",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 3,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Thirty One",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 3,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Forty One",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 4,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "One",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 4,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Twenty Two",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 4,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Twenty Six",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 3,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Thirty Seven",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 3,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Thirty Three",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 4,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Fifteen",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 1,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Thirty Two",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 4,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Twenty Three",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Eight",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 4,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Thirteen",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 1,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Five",
+      "dutySection": "2",
+      "canDrive": "No",
+      "status": 5,
+      "lastAssignedDuty": 1,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Fourty",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 1,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Thirty Six",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 1,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Twenty",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Two",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 4,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Twenty Eight",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Thirty Five",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 3,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Six",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Sixteen",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 3,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Twenty One",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 3,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Twenty Nine",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Twelve",
+      "dutySection": "2",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 1,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    },
+    {
+      "name": "Three",
+      "dutySection": "1",
+      "canDrive": "Yes",
+      "status": 5,
+      "lastAssignedDuty": 2,
+      "weeklyTasks": {
+        "duty_driver": 0,
+        "colors": 0
+      },
+      "taskHistory": {
+        "mon": [],
+        "tue": [],
+        "wed": [],
+        "thu": [],
+        "fri": [],
+        "sat": [],
+        "sun": []
+      },
+      "assignedRoles": {
+        "duty_driver": 0,
+        "colors": 0
+      }
+    }
+  ],
+  "roster": {
+    "Monday": {
+      "Watch": [],
+      "Rover": [
+        "",
+        ""
+      ],
+      "Driver": [],
+      "Colors": [
+        "",
+        ""
+      ]
+    },
+    "Tuesday": {
+      "Watch": [],
+      "Rover": [
+        "",
+        ""
+      ],
+      "Driver": [],
+      "Colors": [
+        "",
+        ""
+      ]
+    },
+    "Wednesday": {
+      "Watch": [],
+      "Rover": [
+        "",
+        ""
+      ],
+      "Driver": [],
+      "Colors": [
+        "",
+        ""
+      ]
+    },
+    "Thursday": {
+      "Watch": [],
+      "Rover": [
+        "",
+        ""
+      ],
+      "Driver": [],
+      "Colors": [
+        "",
+        ""
+      ]
+    },
+    "Friday": {
+      "Watch": [],
+      "Rover": [
+        "",
+        ""
+      ],
+      "Driver": [],
+      "Colors": [
+        "",
+        ""
+      ]
+    },
+    "Saturday": {
+      "Watch": [],
+      "Rover": [
+        "",
+        ""
+      ],
+      "Driver": [],
+      "Colors": [
+        "",
+        ""
+      ]
+    },
+    "Sunday": {
+      "Watch": [],
+      "Rover": [
+        "",
+        ""
+      ],
+      "Driver": [],
+      "Colors": [
+        "",
+        ""
+      ]
+    }
+  },
+  "rosters": {
+    "27": {
+      "starting_dsn": "2",
+      "roster": {
+        "mon": {
+          "date": "01JUL2024",
+          "duty_section": "2",
+          "assignments": {
+            "moow": [
+              "Thirty Eight",
+              "Twenty Four"
+            ],
+            "rover": [
+              "Fourteen",
+              "Eighteen",
+              "Seven"
+            ],
+            "duty_driver": [
+              "Ten",
+              "Thirty"
+            ],
+            "colors": [
+              "Thirty Four",
+              "Twenty Two"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 1,
+          "duty_section_name": "2",
+          "duty_section_leader_name": "Ellis Jolt",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        },
+        "tue": {
+          "date": "02JUL2024",
+          "duty_section": "1",
+          "assignments": {
+            "moow": [
+              "Twenty Five",
+              "Nineteen"
+            ],
+            "rover": [
+              "Twenty Seven",
+              "Forty Two",
+              "Seventeen"
+            ],
+            "duty_driver": [
+              "Eight",
+              "Four"
+            ],
+            "colors": [
+              "Thirty Nine",
+              "Eleven"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 1,
+          "duty_section_name": "1",
+          "duty_section_leader_name": "Job Ballard",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        },
+        "wed": {
+          "date": "03JUL2024",
+          "duty_section": "2",
+          "assignments": {
+            "moow": [
+              "Twenty Six",
+              "Thirty Two"
+            ],
+            "rover": [
+              "Eight",
+              "Five",
+              "Fourty"
+            ],
+            "duty_driver": [
+              "Thirty Six",
+              "Twenty"
+            ],
+            "colors": [
+              "Two",
+              "Twenty Eight"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 1,
+          "duty_section_name": "2",
+          "duty_section_leader_name": "Ellis Jolt",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        },
+        "thu": {
+          "date": "04JUL2024",
+          "duty_section": "1",
+          "assignments": {
+            "moow": [
+              "Thirty One",
+              "Forty One"
+            ],
+            "rover": [
+              "One",
+              "Thirty Seven",
+              "Thirty Three"
+            ],
+            "duty_driver": [
+              "Fifteen",
+              "Twenty Three"
+            ],
+            "colors": [
+              "Thirteen",
+              "Thirty Five"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 1,
+          "duty_section_name": "1",
+          "duty_section_leader_name": "Job Ballard",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        },
+        "fri": {
+          "date": "05JUL2024",
+          "duty_section": "2",
+          "assignments": {
+            "moow": [
+              "Sixteen",
+              "Twelve"
+            ],
+            "rover": [
+              "Thirty Eight",
+              "Twenty Four",
+              "Fourteen"
+            ],
+            "duty_driver": [
+              "Eighteen",
+              "Seven"
+            ],
+            "colors": [
+              "Ten",
+              "Thirty"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 1,
+          "duty_section_name": "2",
+          "duty_section_leader_name": "Ellis Jolt",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        },
+        "sat": {
+          "date": "06JUL2024",
+          "duty_section": "1",
+          "assignments": {
+            "moow": [
+              "Six",
+              "Twenty One"
+            ],
+            "rover": [
+              "Twenty Nine",
+              "Three",
+              "Twenty Five"
+            ],
+            "duty_driver": [
+              "Nineteen",
+              "Twenty Seven"
+            ],
+            "colors": [
+              "Forty Two",
+              "Seventeen"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 1,
+          "duty_section_name": "1",
+          "duty_section_leader_name": "Job Ballard",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        },
+        "sun": {
+          "date": "07JUL2024",
+          "duty_section": "2",
+          "assignments": {
+            "moow": [
+              "Thirty Four",
+              "Twenty Two"
+            ],
+            "rover": [
+              "Twenty Six",
+              "Thirty Two",
+              "Eight"
+            ],
+            "duty_driver": [
+              "Five",
+              "Fourty"
+            ],
+            "colors": [
+              "Thirty Six",
+              "Twenty"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 1,
+          "duty_section_name": "2",
+          "duty_section_leader_name": "Ellis Jolt",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        }
+      }
+    },
+    "28": {
+      "starting_dsn": "1",
+      "roster": {
+        "mon": {
+          "date": "08JUL2024",
+          "duty_section": "1",
+          "assignments": {
+            "moow": [
+              "Twenty Five",
+              "Nineteen"
+            ],
+            "rover": [
+              "Twenty Seven",
+              "Forty Two",
+              "Seventeen"
+            ],
+            "duty_driver": [
+              "Eight",
+              "Four"
+            ],
+            "colors": [
+              "Thirty Nine",
+              "Eleven"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 1,
+          "duty_section_name": "1",
+          "duty_section_leader_name": "Job Ballard",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        },
+        "tue": {
+          "date": "09JUL2024",
+          "duty_section": "2",
+          "assignments": {
+            "moow": [
+              "Thirty Eight",
+              "Twenty Four"
+            ],
+            "rover": [
+              "Fourteen",
+              "Eighteen",
+              "Seven"
+            ],
+            "duty_driver": [
+              "Ten",
+              "Thirty"
+            ],
+            "colors": [
+              "Thirty Four",
+              "Twenty Two"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 1,
+          "duty_section_name": "2",
+          "duty_section_leader_name": "Ellis Jolt",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        },
+        "wed": {
+          "date": "10JUL2024",
+          "duty_section": "1",
+          "assignments": {
+            "moow": [
+              "Thirty One",
+              "Forty One"
+            ],
+            "rover": [
+              "One",
+              "Thirty Seven",
+              "Thirty Three"
+            ],
+            "duty_driver": [
+              "Fifteen",
+              "Twenty Three"
+            ],
+            "colors": [
+              "Thirteen",
+              "Thirty Five"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 1,
+          "duty_section_name": "1",
+          "duty_section_leader_name": "Job Ballard",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        },
+        "thu": {
+          "date": "11JUL2024",
+          "duty_section": "2",
+          "assignments": {
+            "moow": [
+              "Twenty Six",
+              "Thirty Two"
+            ],
+            "rover": [
+              "Eight",
+              "Five",
+              "Fourty"
+            ],
+            "duty_driver": [
+              "Thirty Six",
+              "Twenty"
+            ],
+            "colors": [
+              "Two",
+              "Twenty Eight"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 1,
+          "duty_section_name": "2",
+          "duty_section_leader_name": "Ellis Jolt",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        },
+        "fri": {
+          "date": "12JUL2024",
+          "duty_section": "1",
+          "assignments": {
+            "moow": [
+              "Six",
+              "Twenty One",
+              "Twenty Nine"
+            ],
+            "rover": [
+              "Three",
+              "Twenty Five",
+              "Nineteen",
+              "Twenty Seven",
+              "Forty Two",
+              "Seventeen"
+            ],
+            "duty_driver": [
+              "Eight",
+              "Four"
+            ],
+            "colors": [
+              "Thirty Nine",
+              "Eleven"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 2,
+          "duty_section_name": "1",
+          "duty_section_leader_name": "Job Ballard",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        },
+        "sat": {
+          "date": "13JUL2024",
+          "duty_section": "2",
+          "assignments": {
+            "moow": [
+              "Sixteen",
+              "Twelve",
+              "Thirty Eight",
+              "Twenty Four"
+            ],
+            "rover": [
+              "Fourteen",
+              "Eighteen",
+              "Seven",
+              "Ten",
+              "Thirty",
+              "Thirty Four"
+            ],
+            "duty_driver": [
+              "Twenty Two",
+              "Twenty Six"
+            ],
+            "colors": [
+              "Thirty Two",
+              "Eight"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 3,
+          "duty_section_name": "2",
+          "duty_section_leader_name": "Ellis Jolt",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        },
+        "sun": {
+          "date": "14JUL2024",
+          "duty_section": "1",
+          "assignments": {
+            "moow": [
+              "Thirty One",
+              "Forty One",
+              "One"
+            ],
+            "rover": [
+              "Thirty Seven",
+              "Thirty Three",
+              "Fifteen",
+              "Twenty Three"
+            ],
+            "duty_driver": [
+              "Thirteen",
+              "Thirty Five"
+            ],
+            "colors": [
+              "Six",
+              "Twenty One"
+            ]
+          },
+          "sunset_time": "2012",
+          "schedule": 4,
+          "duty_section_name": "1",
+          "duty_section_leader_name": "Job Ballard",
+          "duty_section_leader_number": "737-262-1666",
+          "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+All uniforms must be inspection ready at all times."
+        }
+      }
+    }
+  },
+  "selectedRoster": 27
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Create a table called colors
+2. Place {number of duty section} objects in there
+3. assign {number of students required for colors duty that week for that duty section roster} students 
+   in new roster object to colors.
+4. assign {number of students required for dudty driver duty that week for that duty section roster} students 
+   in new roster object to duty drivers.
+
+//
+//
+//
+
+
+I was thinking of breaking the four layouts for the four different schedules. 
+
+You could then use them as templates in a "page.js" file to create the layout with the seven 
+sections based on which schedule is for what day...
+
+Remember each duty section in the db has it's own notes so those need to be replaced too. 
+This is the base page.html file I wanted to end up with:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="paper text">
+    <div class="fixed-grid">
+      <div class="grid">
+        <div class="cell height solid_border" id="monday_layout">
+          <!-- MONDAY LAYOUT COMES HERE-->
+        </div>
+
+        <div class="cell height solid_border" id="tuesday_layout">
+          <!-- TUESDAY LAYOUT COMES HERE-->
+        </div>
+
+        <div class="cell height solid_border" id="wednesday_layout">
+        <!-- WEDNESDAY LAYOUT COMES HERE-->  
+        </div>
+
+        <div class="cell height solid_border" id="thursday_layout">
+          <!-- THURSDAY LAYOUT COMES HERE-->
+        </div>
+
+        <div class="cell height solid_border" id="friday_layout">
+          <!-- FRIDAY LAYOUT COMES HERE-->
+        </div>
+
+        <div class="cell height solid_border" id="saturday_layout">
+          <!-- SATURDAY LAYOUT COMES HERE-->
+        </div>
+
+        <div class="cell height solid_border" id="sunday_layout">
+          <!-- SUNDAY LAYOUT COMES HERE-->
+        </div>
+
+        <div class="cell height solid_border" id="notes_section_layout">
+          <!-- ADDITIONAL NOTES SECTION - WE WILL WORK ON THIS SECTION LATER -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/page.js"></script>
+</body>
+
+</html>
+
+Schedule one html template:
+  <div class="dsr_section dsr_title">DUTY SECTION {1}</div>
+  <div class="dsr_section dsl_center_text solid_border_bottom dsl_bold">{DSL Name - Number}</div>
+  <div class="dsr_section dsl_bold">
+    <div class="dsr_20 dsl_center_text">{DAY OF WEEK}</div>
+    <div class="dsr_25 dsl_center_text">{DATE}</div>
+    <div class="dsr_30 dsl_center_text">DUTY SWAP</div>
+    <div class="dsr_25_end dsl_center_text">SIGNATURE</div>
+  </div>
+  <div class="dsr_section dsl_bold">
+    <div class="dsr_20 dsl_center_text">TIME</div>
+    <div class="dsr_25 dsl_center_text">MOOW</div>
+    <div class="dsr_30 dsl_center_text">MOOW</div>
+    <div class="dsr_25_end dsl_center_text dsr_black">&nbsp;</div>
+  </div>
+  <!-- MOOW Times -->
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">1730 - 2200</div>
+    <div class="dsr_25 dsl_center_text">{MOOW 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">2200 - 2230</div>
+    <div class="dsr_25 dsl_center_text">{MOOW 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Rover Times -->
+  <div class="dsr_section dsl_bold">
+    <div class="dsr_20 dsl_center_text">TIME</div>
+    <div class="dsr_25 dsl_center_text">ROVERS</div>
+    <div class="dsr_30 dsl_center_text">ROVERS</div>
+    <div class="dsr_25_end dsl_center_text dsr_black">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">1730 - 2200</div>
+    <div class="dsr_25 dsl_center_text">{Rover 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text">2200 - 2230</div>
+    <div class="dsr_25 dsl_center_text">{Rover 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Rover 3}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Duty Drivers -->
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text dsl_bold">Duty Drivers</div>
+    <div class="dsr_25 dsl_center_text">{Driver 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Driver 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Colors -->
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text dsl_bold">Colors</div>
+    <div class="dsr_25 dsl_center_text">{Driver 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Driver 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Sunset Times -->
+  <div class="dsr_section">
+    <div class="dsr_75 dsl_center_text dsr_font_10 dsl_bold">SUNSET @ {sunest_time}</div>
+    <div class="dsr_25_end dsl_center_text dsr_black">&nbsp;</div>
+  </div>
+  <div class="dsr_section dsl_bold">&nbsp; NOTES:</div>
+  <div class="dsr_section"> {Notes can come here}</div>
+
+Schedule two html template:
+  <div class="dsr_section dsr_title">DUTY SECTION {1}</div>
+  <div class="dsr_section dsl_center_text solid_border_bottom dsl_bold">{DSL Name - Number}</div>
+  <div class="dsr_section dsl_bold">
+    <div class="dsr_20 dsl_center_text">{DAY OF WEEK}</div>
+    <div class="dsr_25 dsl_center_text">{DATE}</div>
+    <div class="dsr_30 dsl_center_text">DUTY SWAP</div>
+    <div class="dsr_25_end dsl_center_text">SIGNATURE</div>
+  </div>
+  <div class="dsr_section dsl_bold">
+    <div class="dsr_20 dsl_center_text">TIME</div>
+    <div class="dsr_25 dsl_center_text">MOOW</div>
+    <div class="dsr_30 dsl_center_text">MOOWD</div>
+    <div class="dsr_25_end dsl_center_text dsr_black">&nbsp;</div>
+  </div>
+  <!-- MOOW Times -->
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">1730 - 2200</div>
+    <div class="dsr_25 dsl_center_text">{MOOW 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">2200 - 0300</div>
+    <div class="dsr_25 dsl_center_text">{MOOW 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">0300 - 0800</div>
+    <div class="dsr_25 dsl_center_text">{MOOW 3}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Rover Times -->
+  <div class="dsr_section dsl_bold">
+    <div class="dsr_20 dsl_center_text">TIME</div>
+    <div class="dsr_25 dsl_center_text">ROVERS</div>
+    <div class="dsr_30 dsl_center_text">ROVERS</div>
+    <div class="dsr_25_end dsl_center_text dsr_black">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">1730 - 2200</div>
+    <div class="dsr_25 dsl_center_text">{Rover 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text">2200 - 0300</div>
+    <div class="dsr_25 dsl_center_text">{Rover 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Rover 3}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text">0300 - 0800</div>
+    <div class="dsr_25 dsl_center_text">{Rover 4}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Rover 5}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Duty Drivers -->
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text dsl_bold">Duty Drivers</div>
+    <div class="dsr_25 dsl_center_text">{Driver 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Driver 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Colors -->
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text dsl_bold">Colors</div>
+    <div class="dsr_25 dsl_center_text">{Driver 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Driver 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Sunset Times -->
+  <div class="dsr_section">
+    <div class="dsr_75 dsl_center_text dsr_font_10 dsl_bold">SUNSET @ {sunset_time}</div>
+    <div class="dsr_25_end dsl_center_text dsr_black">&nbsp;</div>
+  </div>
+  <div class="dsr_section dsl_bold">&nbsp; NOTES:</div>
+  <div class="dsr_section"> {Notes can come here}</div>
+
+Schedule three html template:
+  <!-- Header -->
+  <div class="dsr_section dsr_title">DUTY SECTION {1}</div>
+  <div class="dsr_section dsl_center_text solid_border_bottom dsl_bold">{DSL Name - Number}</div>
+  <div class="dsr_section dsl_bold">
+    <div class="dsr_20 dsl_center_text">{DAY OF WEEK}</div>
+    <div class="dsr_25 dsl_center_text">{DATE}</div>
+    <div class="dsr_30 dsl_center_text">DUTY SWAP</div>
+    <div class="dsr_25_end dsl_center_text">SIGNATURE</div>
+  </div>
+  <div class="dsr_section dsl_bold">
+    <div class="dsr_20 dsl_center_text">TIME</div>
+    <div class="dsr_25 dsl_center_text">MOOW</div>
+    <div class="dsr_30 dsl_center_text">MOOW</div>
+    <div class="dsr_25_end dsl_center_text dsr_black">&nbsp;</div>
+  </div>
+  <!-- MOOW Times -->
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">0800 - 1300</div>
+    <div class="dsr_25 dsl_center_text">{MOOW 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">1300 - 1900</div>
+    <div class="dsr_25 dsl_center_text">{MOOW 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">1900 - 0200</div>
+    <div class="dsr_25 dsl_center_text">{MOOW 3}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">0200 - 0800</div>
+    <div class="dsr_25 dsl_center_text">{MOOW 4}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Rover Times -->
+  <div class="dsr_section dsl_bold">
+    <div class="dsr_20 dsl_center_text">TIME</div>
+    <div class="dsr_25 dsl_center_text">ROVERS</div>
+    <div class="dsr_30 dsl_center_text">ROVERS</div>
+    <div class="dsr_25_end dsl_center_text dsr_black">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">0800 - 1300</div>
+    <div class="dsr_25 dsl_center_text">{Rover 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">1300 - 1900</div>
+    <div class="dsr_25 dsl_center_text">{Rover 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text">1900 - 0200</div>
+    <div class="dsr_25 dsl_center_text">{Rover 3}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Rover 4}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text">0200 - 0800</div>
+    <div class="dsr_25 dsl_center_text">{Rover 5}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Rover 6}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Duty Drivers -->
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text dsl_bold">Duty Drivers</div>
+    <div class="dsr_25 dsl_center_text">{Driver 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Driver 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Colors -->
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text dsl_bold">Colors</div>
+    <div class="dsr_25 dsl_center_text">{Driver 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Driver 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Sunset Times -->
+  <div class="dsr_section">
+    <div class="dsr_75 dsl_center_text dsr_font_10 dsl_bold">SUNSET @ {sunset_time}</div>
+    <div class="dsr_25_end dsl_center_text dsr_black">&nbsp;</div>
+  </div>
+  <div class="dsr_section dsl_bold">&nbsp; NOTES:</div>
+  <div class="dsr_section"> {Notes can come here}</div>
+
+Schedule four html template:
+  <!-- Header -->
+  <div class="dsr_section dsr_title">DUTY SECTION {1}</div>
+  <div class="dsr_section dsl_center_text solid_border_bottom dsl_bold">{DSL Name - Number}</div>
+  <div class="dsr_section dsl_bold">
+    <div class="dsr_20 dsl_center_text">{DAY OF WEEK}</div>
+    <div class="dsr_25 dsl_center_text">{DATE}</div>
+    <div class="dsr_30 dsl_center_text">DUTY SWAP</div>
+    <div class="dsr_25_end dsl_center_text">SIGNATURE</div>
+  </div>
+  <div class="dsr_section dsl_bold">
+    <div class="dsr_20 dsl_center_text">TIME</div>
+    <div class="dsr_25 dsl_center_text">MOOW</div>
+    <div class="dsr_30 dsl_center_text">MOOW</div>
+    <div class="dsr_25_end dsl_center_text dsr_black">&nbsp;</div>
+  </div>
+  <!-- MOOW Times -->
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">0800 - 1300</div>
+    <div class="dsr_25 dsl_center_text">{MOOW 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">1300 - 1900</div>
+    <div class="dsr_25 dsl_center_text">{MOOW 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">1900 - 2330</div>
+    <div class="dsr_25 dsl_center_text">{MOOW 3}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Rover Times -->
+  <div class="dsr_section dsl_bold">
+    <div class="dsr_20 dsl_center_text">TIME</div>
+    <div class="dsr_25 dsl_center_text">ROVERS</div>
+    <div class="dsr_30 dsl_center_text">ROVERS</div>
+    <div class="dsr_25_end dsl_center_text dsr_black">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">0800 - 1300</div>
+    <div class="dsr_25 dsl_center_text">{Rover 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">1300 - 1900</div>
+    <div class="dsr_25 dsl_center_text">{Rover 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text">1900 - 2330</div>
+    <div class="dsr_25 dsl_center_text">{Rover 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Rover 3}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Duty Drivers -->
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text dsl_bold">Duty Drivers</div>
+    <div class="dsr_25 dsl_center_text">{Driver 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Driver 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Colors -->
+  <div class="dsr_section">
+    <div class="dsr_20_no_bottom dsl_center_text dsl_bold">Colors</div>
+    <div class="dsr_25 dsl_center_text">{Driver 1}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <div class="dsr_section">
+    <div class="dsr_20 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25 dsl_center_text">{Driver 2}</div>
+    <div class="dsr_30 dsl_center_text">&nbsp;</div>
+    <div class="dsr_25_end dsl_center_text">&nbsp;</div>
+  </div>
+  <!-- Sunset Times -->
+  <div class="dsr_section">
+    <div class="dsr_75 dsl_center_text dsr_font_10 dsl_bold">SUNSET @ {sunset_time}</div>
+    <div class="dsr_25_end dsl_center_text dsr_black">&nbsp;</div>
+  </div>
+  <div class="dsr_section dsl_bold">&nbsp; NOTES:</div>
+  <<div class="dsr_section">{Notes can come here}</div>>
+
+  If you have a more efficient way to create the same layout, pls walk me through it.
+
+//
+//
+//
+
+I have created this HTML for a section of the page that takes the created weekly roster and shows the number of the week, 
+the date of the first monday. I want the view button to save which roster has been clicked on into the database and open "page.html"
+
+<hr>
+<h3 class="subtitle is-4">Created Rosters:</h3>
+<div id="createdRostersContainer">
+  <div>
+    <div class="columns border_bottom_gray">
+      <div class="column is-3"><span style="font-weight: bold;">Date of Monday: 01JUL2024</span></div>
+      <div class="column is-2">Week of the year: 2</div>
+      <div class="column has-text-right is-2">
+        <button class="button is-small" onclick="">View</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+Please write me the html and supporting js for created_rosters.js. 
+Remember to keep functions doing only one thing for best practice reasons.
+
+//
+//
+//
+
+Works perfect, I would like us to make small incremental changes now, so please guide me to specific places in the code 
+where I should make changes, before each change request I will upload the whole file for your context.
+
+The first change is to which schedule will be used to the day object in the db so it looks like this:
+
+{
+    "duty_section": "2",
+    "assignments": {
+        "moow": [
+            "Sixteen",
+            "Twenty Four"
+        ],
+        "rover": [
+            "Seven",
+            "Twenty",
+            "Thirty Four"
+        ],
+        "duty_driver": [
+            "Fourty",
+            "Thirty Eight"
+        ],
+        "colors": [
+            "Twenty Two",
+            "Eight"
+        ]
+    },
+    "sunset_time": "2012",
+    "schedule" : 1,
+    "duty_section_name" : "1",
+    "duty_section_leader_name" : "Job Ballard",
+    "duty_section_leader_number" : "737-262-1666",
+    "Specific_notes_for_duty_section" : "Whatever notes the duty section has."
+}
+
+from this:
+{
+  "duty_section": "2",
+  "assignments": {
+      "moow": [
+          "Sixteen",
+          "Twenty Four"
+      ],
+      "rover": [
+          "Seven",
+          "Twenty",
+          "Thirty Four"
+      ],
+      "duty_driver": [
+          "Fourty",
+          "Thirty Eight"
+      ],
+      "colors": [
+          "Twenty Two",
+          "Eight"
+      ]
+  },
+  "sunset_time": "2012"
+}
+
+//
+//
+//
+
+{
+  "rosters": {
+    "57": {
+      "starting_dsn": "1",
+      "roster":{}
+    },
+  },
+}
+
+//
+//
+//
+// Creating a schedule
+
+Please help me add the functionality that creates an object with the following structure:
+{
+  "monday":{
+    "duty_section" : "1",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+  "tuesday":{
+    "duty_section" : "2",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+  "wednesday":{
+    "duty_section" : "1",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+  "thursday":{
+    "duty_section" : "2",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+  "friday":{
+    "duty_section" : "1",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+  "saturday":{
+    "duty_section" : "2",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+  "sunday":{
+    "duty_section" : "1",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+}
+
+The number of students assignments should be based on the number of students required for each role in the schedules as follows:
+- Schedule 1 Needs: 2 MOOW, 3 Rovers, 2 DD, 2 Colors
+- Schedule 2 Needs: 3 MOOW, 6 Rovers, 2 DD, 2 Colors
+- Schedule 3 Needs: 4 MOOW, 6 Rovers, 2 DD, 2 Colors
+- Schedule 4 Needs: 3 MOOW, 4 Rovers, 2 DD, 2 Colors
+
+As it assigns students, it changes their status from 5 to 1 for MOOW, 2 for Rover, 3 for Duty Driver, 4 for Colors and 5 for rest day.
+
+The idea is to cycle each student through each role once then give them a rest day.
+
+Inputs for this function will be:
+1. schedules object that looks like this:
+{
+  "mon": 1,
+  "tue": 1,
+  "wed": 2,
+  "thu": 3,
+  "fri": 3,
+  "sat": 3,
+  "sun": 4
+}
+
+2. sunset times object that looks like this:
+{
+  "mon": "2012",
+  "tue": "2012",
+  "wed": "2012",
+  "thu": "2012",
+  "fri": "2012",
+  "sat": "2012",
+  "sun": "2012"
+}
+
+3. the week number.
+
+The week number will be used to find the right roster from the rosters table. Once the table has been identified, 
+the final roster for the week will be saved there with "roster" as the key.
+
+The duty sections should change each day in order based on which duty section is assigned to work monday which
+is available in the db under the right week and "starting_dsn".
+
+I would like to achive this functionality through functions that only do one thing as per best practices.
+
+Can you walk me through how to do this step by step?
+
+Here is the state of the current roster.js file:
+
+// Prompt for create roster for the week
+// 1. Function to check all students have a status
+//    1 - MOOW
+//    2 - Rover
+//    3 - DD
+//    4 - Colors
+//    5 - Rest Day
+Please write me a function that checks all for a key value pair in all students called status. If it doesn't exist, 
+create "status" : 5.
+
+//
+//
+// Steps
+
+// Monday to Thursday - Schedule 1 Needs: 2 MOOW, 3 Rovers, 2 DD, 2 Colors
+// Friday             - Schedule 2 Needs: 3 MOOW, 6 Rovers, 2 DD, 2 Colors
+// Saturday           - Schedule 3 Needs: 4 MOOW, 6 Rovers, 2 DD, 2 Colors
+// Sunday             - Schedule 4 Needs: 3 MOOW, 4 Rovers, 2 DD, 2 Colors
+
+
+1. Determine which schedules are needed for which days
+Given this object:
+{
+  "mon": true,
+  "tue": true,
+  "wed": true,
+  "thu": false,
+  "fri": false,
+  "sat": false,
+  "sun": false
+}
+
+Create a function that returns an object that is similar but states which schedule a given day will follow. 
+Here are the rules this function will follow:
+
+If Monday is set to True, it is schedule 1.
+If Monday is set to False, it is schedule 3.
+
+If Tuesday is set to True, it is schedule 1.
+If Tuesday is set to False, it is schedule 3.
+
+If Wednesday is set to True, it is schedule 1.
+If Wednesday is set to False, it is schedule 3.
+
+If Thursday is set to True, it is schedule 1.
+If Thursday is set to False, it is schedule 3.
+
+If Friday is set to True, it is schedule 2.
+If Friday is set to False, it is schedule 3.
+
+Saturday is schedule 3.
+
+If Sunday is set to True, it is schedule 3.
+If Sunday is set to False, it is schedule 4.
+
+After this initial circiut, go through again and follow these rules:
+If a day among Tue, Wed, Thu, and Fri is marked as false, find the day before and mark it schedule 2 unless it is already schedule 3.
+
+
+
+//
+//
+// Prompt for create or update roster
+pls write me a function that has the following inputs:
+1. week_of_the_year - the value will be a number
+2. number_of_duty_sections - the value will be a number
+
+The function will check the db to see if "rosters" exists, if it doesn't it creates it and creates the a key-value 
+pair inside it being "week_of_the_year" and an object. The object will have two key value ements inside it. 
+The first will be "starting_dsn" whose value will the value of the "dsn" key in the first object of "duty_sections". 
+
+If "rosters" exists, the function will ensure the next duty section is assigned the "starting_dsn" value.
+
+//
+//
+//
+
+Please help me add the functionality that creates an object with the following structure:
+{
+  "monday":{
+    "duty_section" : "1",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+  "tuesday":{
+    "duty_section" : "2",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+  "wednesday":{
+    "duty_section" : "1",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+  "thursday":{
+    "duty_section" : "2",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+  "friday":{
+    "duty_section" : "1",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+  "saturday":{
+    "duty_section" : "2",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+  "sunday":{
+    "duty_section" : "1",
+    "assignments":{
+      "moow" : ["student", "student"],
+      "rover" : ["student", "student"],
+      "duty_driver" : ["student", "student"],
+      "colors" : ["student", "student"],
+    },
+    "sunset_time:" : "2012",
+  },
+}
+
+The number of students assignments should be based on the number of students required for each role in the schedules as follows:
+- Schedule 1 Needs: 2 MOOW, 3 Rovers, 2 DD, 2 Colors
+- Schedule 2 Needs: 3 MOOW, 6 Rovers, 2 DD, 2 Colors
+- Schedule 3 Needs: 4 MOOW, 6 Rovers, 2 DD, 2 Colors
+- Schedule 4 Needs: 3 MOOW, 4 Rovers, 2 DD, 2 Colors
+
+As it assigns students, it changes their status from 5 to 1 for MOOW, 2 for Rover, 3 for Duty Driver, 4 for Colors and 5 for rest day.
+
+The idea is to cycle each student through each role once then give them a rest day.
+
+Inputs for this function will be:
+1. schedules object that looks like this:
+{
+  "mon": 1,
+  "tue": 1,
+  "wed": 2,
+  "thu": 3,
+  "fri": 3,
+  "sat": 3,
+  "sun": 4
+}
+
+2. sunset times object that looks like this:
+{
+  "mon": "2012",
+  "tue": "2012",
+  "wed": "2012",
+  "thu": "2012",
+  "fri": "2012",
+  "sat": "2012",
+  "sun": "2012"
+}
+
+3. the week number.
+
+The week number will be used to find the right roster from the rosters table. Once the table has been identified, 
+the final roster for the week will be saved there with "roster" as the key.
+
+The duty sections should change each day in order based on which duty section is assigned to work monday which
+is available in the db under the right week and "starting_dsn".
+
+I would like to achive this functionality through functions that only do one thing as per best practices.
+
+Can you walk me through how to do this step by step?
+
+Here is the state of the current roster.js file:
+document.getElementById('submitCreateDutySectionForm').addEventListener('click', dslOnSubmit);
+
+function dslOnSubmit(event) {
+    event.preventDefault();
+
+    // Get dates, schedules, and sunset times for each day
+    const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+    const dates = {};
+    const schedules = {};
+    const sunsetTimes = {};
+
+    for (const day of days) {
+        const dateInput = document.getElementById(`${day}_date`);
+        const scheduleInput = document.getElementById(`${day}_schedule`);
+        const sunsetInput = document.getElementById(`${day}_sunset`);
+
+        if (!dateInput.value) {
+            alert(`Date for ${day.toUpperCase()} is required.`);
+            return;
+        }
+
+        if (!scheduleInput.value) {
+            alert(`Schedule for ${day.toUpperCase()} is required.`);
+            return;
+        }
+
+        if (!sunsetInput.value) {
+            alert(`Sunset time for ${day.toUpperCase()} is required.`);
+            return;
+        }
+
+        dates[day] = dateInput.value;
+        schedules[day] = parseInt(scheduleInput.value);
+        sunsetTimes[day] = sunsetInput.value;
+    }
+
+    console.log("Form submitted with dates:", dates);
+    console.log("Schedules:", schedules);
+    console.log("Sunset times:", sunsetTimes);
+    console.log("Week number:", getWeekNumber(dates.mon));
+    console.log("Number of duty sections:", getNumberOfDutySections());
+
+    ensureStudentStatus();
+    createOrUpdateRoster(getWeekNumber(dates.mon), getNumberOfDutySections());
+
+    // Proceed with further processing of dates, schedules, and sunset times
+
+    // Reset form
+    // document.getElementById('createDutySectionForm').reset();
+}
+
+function getWeekNumber(dateStr) {
+    // Parse the date string to a Date object
+    const parts = dateStr.match(/(\d{2})([A-Z]{3})(\d{4})/);
+    const day = parseInt(parts[1], 10);
+    const month = new Date(Date.parse(parts[2] + " 1, 2024")).getMonth();
+    const year = parseInt(parts[3], 10);
+    const date = new Date(year, month, day);
+
+    // Calculate the week number
+    const firstJan = new Date(date.getFullYear(), 0, 1);
+    const pastDaysOfYear = (date - firstJan) / 86400000 + 1;
+
+    return Math.ceil(pastDaysOfYear / 7);
+}
+
+function getNumberOfDutySections() {
+    // Check if the "duty_sections" array exists in the db
+    if (db && db.duty_sections) {
+        // Return the length of the "duty_sections" array
+        return db.duty_sections.length;
+    } else {
+        // If "duty_sections" doesn't exist, return 0
+        return 0;
+    }
+}
+
+function createOrUpdateRoster(week_of_the_year, number_of_duty_sections) {
+    // Check if "rosters" exists in the db, if not, create it
+    if (!db.rosters) {
+        db.rosters = {};
+    }
+
+    // If the "week_of_the_year" doesn't exist in "rosters", create it
+    if (!db.rosters[week_of_the_year]) {
+        // Initialize the object for the given week
+        db.rosters[week_of_the_year] = {
+            starting_dsn: db.duty_sections[0].dsn
+        };
+    } else {
+        // If "rosters" exists, find the last used "starting_dsn" and determine the next duty section
+        const last_week = Object.keys(db.rosters).sort((a, b) => b - a)[0];
+        const last_starting_dsn = db.rosters[last_week].starting_dsn;
+
+        // Find the index of the last "starting_dsn" in "duty_sections"
+        const last_dsn_index = db.duty_sections.findIndex(section => section.dsn === last_starting_dsn);
+
+        // Calculate the index of the next duty section
+        const next_dsn_index = (last_dsn_index + 1) % number_of_duty_sections;
+
+        // Update the "starting_dsn" for the current week
+        db.rosters[week_of_the_year].starting_dsn = db.duty_sections[next_dsn_index].dsn;
+    }
+
+    // Save to local storage
+    localStorage.setItem('db', JSON.stringify(db));
+}
+
+function ensureStudentStatus() {
+    // Check if the "students" array exists in the db
+    if (db && db.students) {
+        // Iterate over each student in the "students" array
+        db.students.forEach(student => {
+            // Check if the "status" key does not exist
+            if (!student.hasOwnProperty('status')) {
+                // Create the "status" key with the value 5
+                student.status = 5;
+            }
+        });
+
+        // Save the updated db back to localStorage
+        localStorage.setItem('db', JSON.stringify(db));
+    } else {
+        console.log('No students found in the database.');
+    }
+}
+

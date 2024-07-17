@@ -1,0 +1,1477 @@
+{
+    "duty_sections": [
+        {
+            "dsn": "1",
+            "dsl": "Job Ballard",
+            "dsl_number": "737-262-1666",
+            "ds_notes": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+        },
+        {
+            "dsn": "2",
+            "dsl": "Ellis Jolt",
+            "dsl_number": "737-262-1666",
+            "ds_notes": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+        }
+    ],
+    "show_page": "page_import_export",
+    "students": [
+        {
+            "name": "Twenty Five",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 1,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1,
+                "moow": null,
+                "rover": null
+            }
+        },
+        {
+            "name": "Nineteen",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 1,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1
+            }
+        },
+        {
+            "name": "Thirty Eight",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 1,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1,
+                "moow": null,
+                "rover": null
+            }
+        },
+        {
+            "name": "Twenty Four",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 1,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1
+            }
+        },
+        {
+            "name": "Twenty Seven",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 1,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1
+            }
+        },
+        {
+            "name": "Fourteen",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1
+            }
+        },
+        {
+            "name": "Forty Two",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 1,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1
+            }
+        },
+        {
+            "name": "Eighteen",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1
+            }
+        },
+        {
+            "name": "Seventeen",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1
+            }
+        },
+        {
+            "name": "Seven",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1
+            }
+        },
+        {
+            "name": "Ten",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 3,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1
+            }
+        },
+        {
+            "name": "Eight",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1
+            }
+        },
+        {
+            "name": "Thirty",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 3,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1
+            }
+        },
+        {
+            "name": "Thirty Four",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 4,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 1,
+                "colors": 1
+            }
+        },
+        {
+            "name": "Four",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Thirty Nine",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Eleven",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 3,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Thirty One",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 3,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Forty One",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 4,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "One",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 4,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Twenty Two",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 4,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Twenty Six",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 3,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Thirty Seven",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 3,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Thirty Three",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 4,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Fifteen",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 1,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Thirty Two",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 4,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Twenty Three",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Eight",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 4,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Thirteen",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 1,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Five",
+            "dutySection": "2",
+            "canDrive": "No",
+            "status": 5,
+            "lastAssignedDuty": 1,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Fourty",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 1,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Thirty Six",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 1,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Twenty",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Two",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 4,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Twenty Eight",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Thirty Five",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 3,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Six",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Sixteen",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 3,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Twenty One",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 3,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Twenty Nine",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Twelve",
+            "dutySection": "2",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 1,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        },
+        {
+            "name": "Three",
+            "dutySection": "1",
+            "canDrive": "Yes",
+            "status": 5,
+            "lastAssignedDuty": 2,
+            "weeklyTasks": {
+                "duty_driver": 0,
+                "colors": 0
+            },
+            "taskHistory": {
+                "mon": [],
+                "tue": [],
+                "wed": [],
+                "thu": [],
+                "fri": [],
+                "sat": [],
+                "sun": []
+            },
+            "assignedRoles": {
+                "duty_driver": 0,
+                "colors": 0
+            }
+        }
+    ],
+    "rosters": {
+        "27": {
+            "starting_dsn": "2",
+            "roster": {
+                "mon": {
+                    "date": "01JUL2024",
+                    "duty_section": "2",
+                    "assignments": {
+                        "moow": [
+                            "Thirty Eight",
+                            "Twenty Four"
+                        ],
+                        "rover": [
+                            "Fourteen",
+                            "Eighteen",
+                            "Seven"
+                        ],
+                        "duty_driver": [
+                            "Ten",
+                            "Thirty"
+                        ],
+                        "colors": [
+                            "Thirty Four",
+                            "Twenty Two"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 1,
+                    "duty_section_name": "2",
+                    "duty_section_leader_name": "Ellis Jolt",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                },
+                "tue": {
+                    "date": "02JUL2024",
+                    "duty_section": "1",
+                    "assignments": {
+                        "moow": [
+                            "Twenty Five",
+                            "Nineteen"
+                        ],
+                        "rover": [
+                            "Twenty Seven",
+                            "Forty Two",
+                            "Seventeen"
+                        ],
+                        "duty_driver": [
+                            "Eight",
+                            "Four"
+                        ],
+                        "colors": [
+                            "Thirty Nine",
+                            "Eleven"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 1,
+                    "duty_section_name": "1",
+                    "duty_section_leader_name": "Job Ballard",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                },
+                "wed": {
+                    "date": "03JUL2024",
+                    "duty_section": "2",
+                    "assignments": {
+                        "moow": [
+                            "Twenty Six",
+                            "Thirty Two"
+                        ],
+                        "rover": [
+                            "Eight",
+                            "Five",
+                            "Fourty"
+                        ],
+                        "duty_driver": [
+                            "Thirty Six",
+                            "Twenty"
+                        ],
+                        "colors": [
+                            "Two",
+                            "Twenty Eight"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 1,
+                    "duty_section_name": "2",
+                    "duty_section_leader_name": "Ellis Jolt",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                },
+                "thu": {
+                    "date": "04JUL2024",
+                    "duty_section": "1",
+                    "assignments": {
+                        "moow": [
+                            "Thirty One",
+                            "Forty One"
+                        ],
+                        "rover": [
+                            "One",
+                            "Thirty Seven",
+                            "Thirty Three"
+                        ],
+                        "duty_driver": [
+                            "Fifteen",
+                            "Twenty Three"
+                        ],
+                        "colors": [
+                            "Thirteen",
+                            "Thirty Five"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 1,
+                    "duty_section_name": "1",
+                    "duty_section_leader_name": "Job Ballard",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                },
+                "fri": {
+                    "date": "05JUL2024",
+                    "duty_section": "2",
+                    "assignments": {
+                        "moow": [
+                            "Sixteen",
+                            "Twelve"
+                        ],
+                        "rover": [
+                            "Thirty Eight",
+                            "Twenty Four",
+                            "Fourteen"
+                        ],
+                        "duty_driver": [
+                            "Eighteen",
+                            "Seven"
+                        ],
+                        "colors": [
+                            "Ten",
+                            "Thirty"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 1,
+                    "duty_section_name": "2",
+                    "duty_section_leader_name": "Ellis Jolt",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                },
+                "sat": {
+                    "date": "06JUL2024",
+                    "duty_section": "1",
+                    "assignments": {
+                        "moow": [
+                            "Six",
+                            "Twenty One"
+                        ],
+                        "rover": [
+                            "Twenty Nine",
+                            "Three",
+                            "Twenty Five"
+                        ],
+                        "duty_driver": [
+                            "Nineteen",
+                            "Twenty Seven"
+                        ],
+                        "colors": [
+                            "Forty Two",
+                            "Seventeen"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 1,
+                    "duty_section_name": "1",
+                    "duty_section_leader_name": "Job Ballard",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                },
+                "sun": {
+                    "date": "07JUL2024",
+                    "duty_section": "2",
+                    "assignments": {
+                        "moow": [
+                            "Thirty Four",
+                            "Twenty Two"
+                        ],
+                        "rover": [
+                            "Twenty Six",
+                            "Thirty Two",
+                            "Eight"
+                        ],
+                        "duty_driver": [
+                            "Five",
+                            "Fourty"
+                        ],
+                        "colors": [
+                            "Thirty Six",
+                            "Twenty"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 1,
+                    "duty_section_name": "2",
+                    "duty_section_leader_name": "Ellis Jolt",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                }
+            }
+        },
+        "28": {
+            "starting_dsn": "1",
+            "roster": {
+                "mon": {
+                    "date": "08JUL2024",
+                    "duty_section": "1",
+                    "assignments": {
+                        "moow": [
+                            "Twenty Five",
+                            "Nineteen"
+                        ],
+                        "rover": [
+                            "Twenty Seven",
+                            "Forty Two",
+                            "Seventeen"
+                        ],
+                        "duty_driver": [
+                            "Eight",
+                            "Four"
+                        ],
+                        "colors": [
+                            "Thirty Nine",
+                            "Eleven"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 1,
+                    "duty_section_name": "1",
+                    "duty_section_leader_name": "Job Ballard",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                },
+                "tue": {
+                    "date": "09JUL2024",
+                    "duty_section": "2",
+                    "assignments": {
+                        "moow": [
+                            "Thirty Eight",
+                            "Twenty Four"
+                        ],
+                        "rover": [
+                            "Fourteen",
+                            "Eighteen",
+                            "Seven"
+                        ],
+                        "duty_driver": [
+                            "Ten",
+                            "Thirty"
+                        ],
+                        "colors": [
+                            "Thirty Four",
+                            "Twenty Two"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 1,
+                    "duty_section_name": "2",
+                    "duty_section_leader_name": "Ellis Jolt",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                },
+                "wed": {
+                    "date": "10JUL2024",
+                    "duty_section": "1",
+                    "assignments": {
+                        "moow": [
+                            "Thirty One",
+                            "Forty One"
+                        ],
+                        "rover": [
+                            "One",
+                            "Thirty Seven",
+                            "Thirty Three"
+                        ],
+                        "duty_driver": [
+                            "Fifteen",
+                            "Twenty Three"
+                        ],
+                        "colors": [
+                            "Thirteen",
+                            "Thirty Five"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 1,
+                    "duty_section_name": "1",
+                    "duty_section_leader_name": "Job Ballard",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                },
+                "thu": {
+                    "date": "11JUL2024",
+                    "duty_section": "2",
+                    "assignments": {
+                        "moow": [
+                            "Twenty Six",
+                            "Thirty Two"
+                        ],
+                        "rover": [
+                            "Eight",
+                            "Five",
+                            "Fourty"
+                        ],
+                        "duty_driver": [
+                            "Thirty Six",
+                            "Twenty"
+                        ],
+                        "colors": [
+                            "Two",
+                            "Twenty Eight"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 1,
+                    "duty_section_name": "2",
+                    "duty_section_leader_name": "Ellis Jolt",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                },
+                "fri": {
+                    "date": "12JUL2024",
+                    "duty_section": "1",
+                    "assignments": {
+                        "moow": [
+                            "Six",
+                            "Twenty One",
+                            "Twenty Nine"
+                        ],
+                        "rover": [
+                            "Three",
+                            "Twenty Five",
+                            "Nineteen",
+                            "Twenty Seven",
+                            "Forty Two",
+                            "Seventeen"
+                        ],
+                        "duty_driver": [
+                            "Eight",
+                            "Four"
+                        ],
+                        "colors": [
+                            "Thirty Nine",
+                            "Eleven"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 2,
+                    "duty_section_name": "1",
+                    "duty_section_leader_name": "Job Ballard",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                },
+                "sat": {
+                    "date": "13JUL2024",
+                    "duty_section": "2",
+                    "assignments": {
+                        "moow": [
+                            "Sixteen",
+                            "Twelve",
+                            "Thirty Eight",
+                            "Twenty Four"
+                        ],
+                        "rover": [
+                            "Fourteen",
+                            "Eighteen",
+                            "Seven",
+                            "Ten",
+                            "Thirty",
+                            "Thirty Four"
+                        ],
+                        "duty_driver": [
+                            "Twenty Two",
+                            "Twenty Six"
+                        ],
+                        "colors": [
+                            "Thirty Two",
+                            "Eight"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 3,
+                    "duty_section_name": "2",
+                    "duty_section_leader_name": "Ellis Jolt",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                },
+                "sun": {
+                    "date": "14JUL2024",
+                    "duty_section": "1",
+                    "assignments": {
+                        "moow": [
+                            "Thirty One",
+                            "Forty One",
+                            "One"
+                        ],
+                        "rover": [
+                            "Thirty Seven",
+                            "Thirty Three",
+                            "Fifteen",
+                            "Twenty Three"
+                        ],
+                        "duty_driver": [
+                            "Thirteen",
+                            "Thirty Five"
+                        ],
+                        "colors": [
+                            "Six",
+                            "Twenty One"
+                        ]
+                    },
+                    "sunset_time": "2012",
+                    "schedule": 4,
+                    "duty_section_name": "1",
+                    "duty_section_leader_name": "Job Ballard",
+                    "duty_section_leader_number": "737-262-1666",
+                    "specific_notes_for_duty_section": "Cleaning details will be all hands on duty. 
+  All uniforms must be inspection ready at all times."
+                }
+            }
+        }
+    },
+    "selectedRoster": 27
+}

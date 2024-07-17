@@ -1,0 +1,177 @@
+.left_menu {
+  background-color: var(--bulma-link-text);
+  height: 100vh;
+  padding: 50px 60px;
+}
+
+.right_content {
+  padding: 0 50px;
+}
+
+.header_menu {
+  padding: 30px 50px;
+}
+
+.mb_20 {
+  margin-bottom: 20px;
+}
+
+.cm_title {
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 0;
+  margin-top: -10px;
+}
+
+.border_bottom_gray {
+  border-bottom: 1px solid #ededed;
+  padding: 10px 0px 0 0;
+}
+
+.date_label {
+  display: block;
+  padding-top: 8px;
+}
+
+.workday_label {
+  display: block;
+  padding-top: 8px;
+}
+
+.sunset_label {
+  display: block;
+  padding-top: 8px;
+}
+
+.paper {
+  width: 1000px;
+  height: 1300px;
+  border: solid white 1px;
+  color: black;
+}
+
+.box_left {
+  width: 500px;
+  height: 310px;
+  border: solid black 1px;
+  margin: 0 50px 40px 0;
+  float: left;
+  overflow: hidden;
+}
+
+.box_right {
+  width: 500px;
+  height: 310px;
+  border: solid black 1px;
+  margin: 0 0px 40px 0;
+  float: left;
+  overflow: hidden;
+}
+
+.solid_border {
+  border: solid black 2px;
+  overflow: hidden;
+}
+
+.solid_border_bottom {
+  border-bottom: solid black 1px;
+}
+
+.height {
+  height: 320px;
+}
+
+.dsr_section {
+  overflow: hidden;
+  font-size: 9.9px;
+  text-align: center;
+}
+
+.dsr_title {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dsl_bold {
+  font-weight: bold;
+}
+
+.dsr_20 {
+  float: left;
+  width: 20%;
+  border-right: solid black 1px;
+  border-bottom: solid black 1px !important;
+}
+
+.dsr_20_no_bottom {
+  float: left;
+  width: 20%;
+  border-right: solid black 1px;
+}
+
+.dsr_25 {
+  float: left;
+  width: 25%;
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;
+}
+
+.dsr_25_end {
+  float: left;
+  width: 25%;
+  border-bottom: solid black 1px;
+  padding: 0;
+  margin: 0;
+}
+
+.dsr_30 {
+  float: left;
+  width: 30%;
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;
+}
+
+.dsr_45 {
+  float: left;
+  width: 45%;
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;
+}
+
+.dsr_75 {
+  float: left;
+  width: 75%;
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;
+}
+
+.dsr_black {
+  background-color: black;
+}
+
+.dsl_center_text {
+  text-align: center;
+}
+
+.dsr_font_10 {
+  font-weight: 10px;
+}
+
+.dsl_bg {
+  background-image: url(../blackbg.jpg);
+  background-size: cover;
+}
+
+#notes_section_layout{display: flex;}
+
+#notesContainer{
+  font-size: 10px;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resetRoleAssignments{float: right;}
