@@ -1,70 +1,77 @@
 document.getElementById('submitCreateDutySectionForm').addEventListener('click', dslOnSubmit);
 
-// Function to get students by duty section
-function getStudentsByDutySection(dutySection) {
-    return db.students.filter(student => String(student.dutySection) === String(dutySection));
-}
-
-function dslOnSubmit(event) {
+async function dslOnSubmit(event) {
     event.preventDefault();
 
     const formInputs = parseFormInputs();
     if (!formInputs) return;
 
-    const { dates, schedules, sunsetTimes } = formInputs;
+    const { dates, schedules } = formInputs;
     const weekNumber = getWeekNumber(dates.mon);
 
     resetStudentStatus();
     ensureStudentStatus();
 
-    if (!db.rosters) {
-        db.rosters = {};
+    try {
+        const sunsetData = await fetchSunsetTimes(dates.mon, dates.sun);
+        if (sunsetData.error) {
+            alert('Failed to fetch sunset times: ' + sunsetData.error);
+            return;
+        }
+
+        const sunsetTimes = sunsetData.sunset_times;
+        console.log('Fetched sunset times:', sunsetTimes);
+
+        if (!db.rosters) {
+            db.rosters = {};
+        }
+
+        const lastWeekNumber = weekNumber - 1;
+        let starting_dsn;
+        if (db.rosters[lastWeekNumber]) {
+            starting_dsn = getNextDutySection(db.rosters[lastWeekNumber].roster.sun.duty_section);
+        } else {
+            starting_dsn = db.duty_sections[0].dsn;
+        }
+
+        const roster = initializeDutyRoster(schedules, sunsetTimes, dates);
+        console.log('Initialized roster with sunset times:', roster);
+
+        const studentsByDutySection = getStudentsGroupedByDutySection();
+
+        if (!db.roleAssignments) {
+            db.roleAssignments = initializeRoleAssignments();
+        }
+
+        assignRolesToRoster(roster, schedules, starting_dsn, studentsByDutySection, weekNumber, dates);
+
+        saveRosterToDatabase(weekNumber, roster);
+        saveRoleAssignments();
+        location.reload();
+    } catch (error) {
+        alert('Failed to fetch sunset times: ' + error.message);
     }
-
-    const lastWeekNumber = weekNumber - 1;
-    let starting_dsn;
-    if (db.rosters[lastWeekNumber]) {
-        starting_dsn = getNextDutySection(db.rosters[lastWeekNumber].roster.sun.duty_section);
-    } else {
-        starting_dsn = db.duty_sections[0].dsn;
-    }
-
-    const roster = initializeDutyRoster(schedules, sunsetTimes, dates);
-    const studentsByDutySection = getStudentsGroupedByDutySection();
-
-    if (!db.roleAssignments) {
-        db.roleAssignments = initializeRoleAssignments();
-    }
-
-    assignRolesToRoster(roster, schedules, starting_dsn, studentsByDutySection, weekNumber, dates);
-
-    saveRosterToDatabase(weekNumber, roster);
-    saveRoleAssignments();
-    location.reload();
 }
 
 function parseFormInputs() {
     const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
     const dates = {};
     const schedules = {};
-    const sunsetTimes = {};
 
     for (const day of days) {
         const dateInput = document.getElementById(`${day}_date`);
         const scheduleInput = document.getElementById(`${day}_schedule`);
-        const sunsetInput = document.getElementById(`${day}_sunset`);
 
-        if (!dateInput.value || !scheduleInput.value || !sunsetInput.value) {
+        if (!dateInput.value || !scheduleInput.value) {
             alert(`All fields for ${day.toUpperCase()} are required.`);
             return null;
         }
 
         dates[day] = dateInput.value;
         schedules[day] = parseInt(scheduleInput.value);
-        sunsetTimes[day] = sunsetInput.value;
     }
 
-    return { dates, schedules, sunsetTimes };
+    return { dates, schedules };
 }
 
 function getWeekNumber(dateStr) {
@@ -84,8 +91,10 @@ function initializeDutyRoster(schedules, sunsetTimes, dates) {
     const roster = {};
 
     for (const day in schedules) {
+        const date = dates[day];
+        const sunsetTime = sunsetTimes[convertToYYYYMMDD(date)]; // Convert date to YYYY-MM-DD format to match sunsetTimes keys
         roster[day] = {
-            date: dates[day],
+            date: date,
             duty_section: '',
             assignments: {
                 moow: [],
@@ -93,7 +102,7 @@ function initializeDutyRoster(schedules, sunsetTimes, dates) {
                 duty_driver: [],
                 colors: []
             },
-            sunset_time: sunsetTimes[day],
+            sunset_time: sunsetTime, // Ensure sunset time is added here
             schedule: schedules[day],
             duty_section_name: '',
             duty_section_leader_name: '',
@@ -103,6 +112,18 @@ function initializeDutyRoster(schedules, sunsetTimes, dates) {
     }
 
     return roster;
+}
+
+function convertToYYYYMMDD(dateStr) {
+    const parts = dateStr.match(/(\d{2})([A-Z]{3})(\d{4})/);
+    const day = parts[1];
+    const month = {
+        JAN: '01', FEB: '02', MAR: '03', APR: '04',
+        MAY: '05', JUN: '06', JUL: '07', AUG: '08',
+        SEP: '09', OCT: '10', NOV: '11', DEC: '12'
+    }[parts[2].toUpperCase()];
+    const year = parts[3];
+    return `${year}-${month}-${day}`;
 }
 
 function resetStudentStatus() {
@@ -117,7 +138,7 @@ function ensureStudentStatus() {
             student.status = 5;
         }
     });
-    sessionStorage .setItem('db', JSON.stringify(db));
+    sessionStorage.setItem('db', JSON.stringify(db));
 }
 
 function saveRosterToDatabase(weekNumber, roster) {
@@ -127,11 +148,11 @@ function saveRosterToDatabase(weekNumber, roster) {
 
     db.rosters[weekNumber] = { ...db.rosters[weekNumber], roster: roster };
 
-    sessionStorage .setItem('db', JSON.stringify(db));
+    sessionStorage.setItem('db', JSON.stringify(db));
 }
 
 function saveRoleAssignments() {
-    sessionStorage .setItem('db', JSON.stringify(db));
+    sessionStorage.setItem('db', JSON.stringify(db));
 }
 
 function getStudentsGroupedByDutySection() {
@@ -140,6 +161,10 @@ function getStudentsGroupedByDutySection() {
         studentsByDutySection[dutySection.dsn] = getStudentsByDutySection(dutySection.dsn);
     });
     return studentsByDutySection;
+}
+
+function getStudentsByDutySection(dutySection) {
+    return db.students.filter(student => String(student.dutySection) === String(dutySection));
 }
 
 function getNextDutySection(currentDsn) {
@@ -192,8 +217,6 @@ function assignRolesToRoster(roster, schedules, starting_dsn, studentsByDutySect
         roster[day].duty_section_leader_name = dutySections[dutySectionIndex % dutySections.length].dsl;
         roster[day].duty_section_leader_number = dutySections[dutySectionIndex % dutySections.length].dsl_number;
         roster[day].specific_notes_for_duty_section = dutySections[dutySectionIndex % dutySections.length].ds_notes;
-
-        dutySectionIndex = (dutySectionIndex + 1) % dutySections.length;
     }
 }
 
@@ -273,4 +296,54 @@ function parseDate(dateStr) {
     const month = new Date(Date.parse(parts[2] + " 1, 2024")).getMonth();
     const year = parseInt(parts[3], 10);
     return new Date(year, month, day);
+}
+
+function fetchSunsetTimes(startDate, endDate) {
+    const latitude = 34.153402513535646;
+    const longitude = -119.20478946579799;
+
+    // Convert date format from DDMMMYYYY to YYYY-MM-DD
+    const convertDate = (date) => {
+        const months = {
+            JAN: '01', FEB: '02', MAR: '03', APR: '04',
+            MAY: '05', JUN: '06', JUL: '07', AUG: '08',
+            SEP: '09', OCT: '10', NOV: '11', DEC: '12'
+        };
+        const day = date.slice(0, 2);
+        const month = months[date.slice(2, 5).toUpperCase()];
+        const year = date.slice(5);
+        return `${year}-${month}-${day}`;
+    };
+
+    const start = convertDate(startDate);
+    const end = convertDate(endDate);
+    const url = `https://api.sunrisesunset.io/json?lat=${latitude}&lng=${longitude}&date_start=${start}&date_end=${end}`;
+
+    return fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            if (data.status !== 'OK') {
+                throw new Error('Failed to fetch data');
+            }
+
+            const sunsetTimes = {};
+            data.results.forEach(day => {
+                const date = day.date;
+                const [time, meridian] = day.sunset.split(' ');
+                let [hours, minutes, seconds] = time.split(':');
+                hours = parseInt(hours);
+                if (meridian === 'PM' && hours !== 12) hours += 12;
+                if (meridian === 'AM' && hours === 12) hours = 0;
+                sunsetTimes[date] = `${String(hours).padStart(2, '0')}:${minutes}`;
+            });
+
+            return {
+                date_range: [start, end],
+                sunset_times: sunsetTimes
+            };
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            return { error: error.message };
+        });
 }
