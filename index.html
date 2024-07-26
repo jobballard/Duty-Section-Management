@@ -84,72 +84,72 @@
 
         <!-- We'll manage students here -->
         <div id="page_students" style="display: none;">
-  <h1 class="cm_title">Manage Students</h1>
-  <hr>
-  <div class="columns">
-    <div class="column is-6">
-      <h3 class="subtitle is-4">Add a student:</h3>
-      <!-- New Student Form -->
-      <form id="addStudentForm">
-        <div class="field mb_20">
-          <label class="label">Student Name</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="Name" id="student_name" required>
-          </div>
-        </div>
+          <h1 class="cm_title">Manage Students</h1>
+          <hr>
+          <div class="columns">
+            <div class="column is-6">
+              <h3 class="subtitle is-4">Add a student:</h3>
+              <!-- New Student Form -->
+              <form id="addStudentForm">
+                <div class="field mb_20">
+                  <label class="label">Student Name</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="Name" id="student_name" required>
+                  </div>
+                </div>
 
-        <div class="field mb_20">
-          <label class="label">Grad Date</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="10JUN2024" id="grad_date" required>
-          </div>
-        </div>
+                <div class="field mb_20">
+                  <label class="label">Grad Date</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="10JUN2024" id="grad_date" required>
+                  </div>
+                </div>
 
-        <div class="field mb_20">
-          <label class="label">Duty Section</label>
-          <div class="control">
-            <div class="select">
-              <!-- This will take Duty Section names from the DB and should be dynamic -->
-              <select id="student_duty_section_select"></select>
+                <div class="field mb_20">
+                  <label class="label">Duty Section</label>
+                  <div class="control">
+                    <div class="select">
+                      <!-- This will take Duty Section names from the DB and should be dynamic -->
+                      <select id="student_duty_section_select"></select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="field mb_20">
+                  <label class="label">Is LLD?</label>
+                  <div class="control">
+                    <div class="select">
+                      <select id="student_is_lld">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="field mb_20">
+                  <label class="label">Can Drive?</label>
+                  <div class="control">
+                    <div class="select">
+                      <select id="student_can_drive_select">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="control">
+                  <button class="button is-link" id="submitStudentForm">Submit</button>
+                </div>
+              </form>
+            </div>
+            <div class="column is-6">
+              <h3 class="subtitle is-4">Manage students:</h3>
+              <div id="studentsContainer"></div>
             </div>
           </div>
         </div>
-
-        <div class="field mb_20">
-          <label class="label">Is LLD?</label>
-          <div class="control">
-            <div class="select">
-              <select id="student_is_lld">
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-              </select>
-            </div>
-          </div>
-        </div>
-
-        <div class="field mb_20">
-          <label class="label">Can Drive?</label>
-          <div class="control">
-            <div class="select">
-              <select id="student_can_drive_select">
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-              </select>
-            </div>
-          </div>
-        </div>
-
-        <div class="control">
-          <button class="button is-link" id="submitStudentForm">Submit</button>
-        </div>
-      </form>
-    </div>
-    <div class="column is-6">
-      <h3 class="subtitle is-4">Manage students:</h3>
-      <div id="studentsContainer"></div>
-    </div>
-  </div>
-</div>
 
 
 
@@ -165,14 +165,13 @@
                   <label class="label">&nbsp;</label>
                   <div class="date_label">Date: (Format: 31JAN2024)</div>
                   <div class="workday_label">Schedule for the Day?</div>
-                  <div class="sunset_label">Sunset Time</div>
                 </div>
               </div>
               <div class="column is-1">
                 <div class="field mb_20">
                   <label class="label">Mon</label>
                   <div class="control">
-                    <input class="input" type="text" placeholder="31JAN2024" id="mon_date" value="22JUL2024" required>
+                    <input class="input" type="text" placeholder="31JAN2024" id="mon_date" value="29JUL2024" required>
                   </div>
                   <div class="control">
                     <div class="select">
@@ -184,16 +183,13 @@
                       </select>
                     </div>
                   </div>
-                  <div class="control">
-                    <input class="input" type="text" placeholder="2012" id="mon_sunset" value="2004" required>
-                  </div>
                 </div>
               </div>
               <div class="column is-1">
                 <div class="field mb_20">
                   <label class="label">Tue</label>
                   <div class="control">
-                    <input class="input" type="text" placeholder="01FEB2024" id="tue_date" value="23JUL2024" required>
+                    <input class="input" type="text" placeholder="01FEB2024" id="tue_date" readonly required>
                   </div>
                   <div class="control">
                     <div class="select">
@@ -205,16 +201,13 @@
                       </select>
                     </div>
                   </div>
-                  <div class="control">
-                    <input class="input" type="text" placeholder="2012" id="tue_sunset" value="2004" required>
-                  </div>
                 </div>
               </div>
               <div class="column is-1">
                 <div class="field mb_20">
                   <label class="label">Wed</label>
                   <div class="control">
-                    <input class="input" type="text" placeholder="02FEB2024" id="wed_date" value="24JUL2024" required>
+                    <input class="input" type="text" placeholder="02FEB2024" id="wed_date" readonly required>
                   </div>
                   <div class="control">
                     <div class="select">
@@ -226,27 +219,23 @@
                       </select>
                     </div>
                   </div>
-                  <div class="control">
-                    <input class="input" type="text" placeholder="2012" id="wed_sunset" value="2003" required>
-                  </div>
                 </div>
               </div>
               <div class="column is-1">
                 <div class="field mb_20">
                   <label class="label">Thu</label>
                   <div class="control">
-                    <input class="input" type="text" placeholder="03FEB2024" id="thu_date" value="25JUL2024" required>
-                  </div>
-                  <div class="select">
-                    <select id="thu_schedule">
-                      <option value="1">Schedule 1</option>
-                      <option value="2">Schedule 2</option>
-                      <option value="3">Schedule 3</option>
-                      <option value="4">Schedule 4</option>
-                    </select>
+                    <input class="input" type="text" placeholder="03FEB2024" id="thu_date" readonly required>
                   </div>
                   <div class="control">
-                    <input class="input" type="text" placeholder="2012" id="thu_sunset" value="2002" required>
+                    <div class="select">
+                      <select id="thu_schedule">
+                        <option value="1">Schedule 1</option>
+                        <option value="2">Schedule 2</option>
+                        <option value="3">Schedule 3</option>
+                        <option value="4">Schedule 4</option>
+                      </select>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -254,7 +243,7 @@
                 <div class="field mb_20">
                   <label class="label">Fri</label>
                   <div class="control">
-                    <input class="input" type="text" placeholder="04FEB2024" id="fri_date" value="26JUL2024" required>
+                    <input class="input" type="text" placeholder="04FEB2024" id="fri_date" readonly required>
                   </div>
                   <div class="control">
                     <div class="select">
@@ -266,16 +255,13 @@
                       </select>
                     </div>
                   </div>
-                  <div class="control">
-                    <input class="input" type="text" placeholder="2012" id="fri_sunset" value="2002" required>
-                  </div>
                 </div>
               </div>
               <div class="column is-1">
                 <div class="field mb_20">
                   <label class="label">Sat</label>
                   <div class="control">
-                    <input class="input" type="text" placeholder="05FEB2024" id="sat_date" value="27JUL2024" required>
+                    <input class="input" type="text" placeholder="05FEB2024" id="sat_date" readonly required>
                   </div>
                   <div class="control">
                     <div class="select">
@@ -287,16 +273,13 @@
                       </select>
                     </div>
                   </div>
-                  <div class="control">
-                    <input class="input" type="text" placeholder="2012" id="sat_sunset" value="2001" required>
-                  </div>
                 </div>
               </div>
               <div class="column is-1">
                 <div class="field mb_20">
                   <label class="label">Sun</label>
                   <div class="control">
-                    <input class="input" type="text" placeholder="06FEB2024" id="sun_date" value="28JUL2024" required>
+                    <input class="input" type="text" placeholder="06FEB2024" id="sun_date" readonly required>
                   </div>
                   <div class="control">
                     <div class="select">
@@ -308,9 +291,6 @@
                       </select>
                     </div>
                   </div>
-                  <div class="control">
-                    <input class="input" type="text" placeholder="2012" id="sun_sunset" value="2000" required>
-                  </div>
                 </div>
               </div>
               <div class="column is-1">
@@ -321,10 +301,13 @@
               </div>
             </div>
           </form>
+          
+
 
           <!-- Here we add created roster list -->
           <hr>
-          <div class="resetRoleAssignments"><button class="button is-link" id="resetRoleAssignments">Reset Role Assignments</button></div>
+          <div class="resetRoleAssignments"><button class="button is-link" id="resetRoleAssignments">Reset Role
+              Assignments</button></div>
           <h3 class="subtitle is-4">Created Rosters:</h3>
           <div id="createdRostersContainer"></div>
 
@@ -385,12 +368,12 @@
   <script src="js/app.js"></script>
   <script src="js/duty_section.js"></script>
   <script src="js/students.js"></script>
-  <script src="js/roster.js"></script>
   <script src="js/created_rosters.js"></script>
   <script src="js/notes.js"></script>
   <script src="js/db.js"></script>
   <script src="js/helpers.js"></script>
-
+  <script src="js/autopopulate.js"></script>
+  <script src="js/roster.js"></script>
 </body>
 
 </html>

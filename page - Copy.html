@@ -28,7 +28,61 @@
       </div>
     </div>
   </div>
-  <script src="js/page.js"></script>
+  <script>
+    function fetchSunsetTimes(startDate, endDate) {
+      // Convert date format from DDMMMYYYY to YYYY-MM-DD
+      const convertDate = (date) => {
+        const months = {
+          JAN: '01', FEB: '02', MAR: '03', APR: '04',
+          MAY: '05', JUN: '06', JUL: '07', AUG: '08',
+          SEP: '09', OCT: '10', NOV: '11', DEC: '12'
+        };
+        const day = date.slice(0, 2);
+        const month = months[date.slice(2, 5).toUpperCase()];
+        const year = date.slice(5);
+        return `${year}-${month}-${day}`;
+      };
+
+      
+
+      const start = convertDate(startDate);
+      const end = convertDate(endDate);
+      const url = `https://api.sunrisesunset.io/json?lat=${latitude}&lng=${longitude}&date_start=${start}&date_end=${end}`;
+
+      return fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          if (data.status !== 'OK') {
+            throw new Error('Failed to fetch data');
+          }
+
+          const sunsetTimes = {};
+          data.results.forEach(day => {
+            const date = day.date;
+            const [time, meridian] = day.sunset.split(' ');
+            let [hours, minutes, seconds] = time.split(':');
+            hours = parseInt(hours);
+            if (meridian === 'PM' && hours !== 12) hours += 12;
+            if (meridian === 'AM' && hours === 12) hours = 0;
+            sunsetTimes[date] = `${String(hours).padStart(2, '0')}:${minutes}`;
+          });
+
+          return {
+            date_range: [start, end],
+            sunset_times: sunsetTimes
+          };
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          return { error: error.message };
+        });
+    }
+
+    // Example usage:
+    fetchSunsetTimes('05AUG2024', '11AUG2024', 38.907192, -77.036873)
+      .then(result => console.log(result));
+
+  </script>
 </body>
 
 </html>
